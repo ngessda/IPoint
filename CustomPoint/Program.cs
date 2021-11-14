@@ -10,9 +10,11 @@ namespace CustomPoint
     {
         static void Main(string[] args)
         {
-            IPoint cp = new CustomPoint(3,4);
-            Console.WriteLine(cp.PointDistance(1, 2));
-
+            IPoint<CustomPoint> cp = new CustomPoint(3, 5);
+            CustomPoint wp = new CustomPoint(4, 6);
+            CustomPoint xp = new CustomPoint(3, 7);
+            Console.WriteLine(cp.PointDistance(wp));
+            cp.PointTriangle(wp, xp);
             Console.ReadKey();
         }
     }
