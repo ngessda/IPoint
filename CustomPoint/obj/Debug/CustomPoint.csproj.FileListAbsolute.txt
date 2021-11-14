@@ -1,0 +1,7 @@
+C:\Users\micky\source\repos\CustomPoint\CustomPoint\obj\Debug\CustomPoint.csproj.AssemblyReference.cache
+C:\Users\micky\source\repos\CustomPoint\CustomPoint\obj\Debug\CustomPoint.csproj.CoreCompileInputs.cache
+C:\Users\micky\source\repos\CustomPoint\CustomPoint\bin\Debug\CustomPoint.exe.config
+C:\Users\micky\source\repos\CustomPoint\CustomPoint\bin\Debug\CustomPoint.exe
+C:\Users\micky\source\repos\CustomPoint\CustomPoint\bin\Debug\CustomPoint.pdb
+C:\Users\micky\source\repos\CustomPoint\CustomPoint\obj\Debug\CustomPoint.exe
+C:\Users\micky\source\repos\CustomPoint\CustomPoint\obj\Debug\CustomPoint.pdb
