@@ -50,7 +50,7 @@ namespace CustomPoint
             double result = Math.Sqrt(rX + rY);
             return result;
         }
-        public void PointTriangle(CustomPoint p1,CustomPoint p2)
+        public bool PointTriangle(CustomPoint p1,CustomPoint p2)
         {
             double pd1 = PointDistance(p1);
             double pd2 = PointDistance(p1, p2);
@@ -60,11 +60,11 @@ namespace CustomPoint
             double sum3 = pd3 + pd1;
             if (pd1 < sum2 || pd2 < sum3 || pd3 < sum1) 
             {
-                Console.WriteLine("Могут.");
+                return true;
             }
             else
             {
-                Console.WriteLine("Не могут.");
+                return false;
             }
         }
     }

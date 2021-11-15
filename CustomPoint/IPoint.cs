@@ -9,6 +9,6 @@ namespace CustomPoint
     public interface IPoint<T>
     {
         double PointDistance(T other);
-        void PointTriangle(T p1, T p2);
+        bool PointTriangle(T p1, T p2);
     }
 }
